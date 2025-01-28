@@ -1,4 +1,4 @@
-/*done with help of following website:https://docs.maptiler.com/openlayers/examples/how-to-use-openlayers/*/
+/*maplibre  website use for some of this  is https://maplibre.org/maplibre-gl-js/docs/examples/hover-styles//*/
 
 body {
     margin: 0;
@@ -6,7 +6,18 @@ body {
 }
 #map {
     position: absolute;
-    top:0;
-    bottom: 0;
-    width: 100%;
+    
+    top:120px;
+    bottom: 140px;
+    width: 90%;
+    margin-left: 10;
+    margin-right: 10;
 }
+
+.title {text-align: center;
+        font-size: 40;}
+
+.lowertitle { text-align: center;
+            font-size: 16}
+.middle {display: flex;
+justify-content: center;}
