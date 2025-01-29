@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Function to load JSON data using Fetch API
     function loadJsonData() {
-        fetch(//"Health_CDI_DB.Chronic_Disease_Indicators.json")
+        fetch("Chronic_Disease_Indicators_Avg.json")
             .then(response => {
                 if (!response.ok) {
                     throw new Error(`HTTP error! Status: ${response.status}`);
@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", function () {
         console.log("Selected Topic:", selectedTopic); // Debugging
 
         // Filter data based on selected state and topic
-        const filteredData = jsonData.filter(entry => entry.LocationDesc === selectedState && entry.CDI_Topic === selectedTopic);
+        let filteredData = jsonData.filter(entry => entry.LocationDesc === selectedState && entry.CDI_Topic === selectedTopic);
 
         if (filteredData.length === 0) {
             console.warn("No data available for the selected State and Topic.");
@@ -77,18 +77,21 @@ document.addEventListener("DOMContentLoaded", function () {
             return;
         }
 
-        // Extract YearEnd (X-axis) and CDI_DataValue (Y-axis)
-        const YearEnd = filteredData.map(entry => entry.YearEnd);
-        const CDI_DataValue = filteredData.map(entry => entry.CDI_DataValue);
+        // Ensure data is sorted chronologically (2011-2021)
+        filteredData.sort((a, b) => a.YearEnd - b.YearEnd);
 
-        console.log("Filtered Data:", filteredData); // Debugging
-        console.log("YearEnd:", YearEnd); // Debugging
-        console.log("CDI_DataValue:", CDI_DataValue); // Debugging
+        // Extract YearEnd (X-axis) and avg_CDI_DataValue (Y-axis)
+        const YearEnd = filteredData.map(entry => entry.YearEnd);
+        const avg_CDI_DataValue = filteredData.map(entry => entry.avg_CDI_DataValue);
+
+        console.log("Filtered & Sorted Data:", filteredData); // Debugging
+        console.log("YearEnd (Chronological):", YearEnd); // Debugging
+        console.log("Avg CDI Value:", avg_CDI_DataValue); // Debugging
 
         if (lineChart) {
             // Update existing chart with new data
             lineChart.data.labels = YearEnd;
-            lineChart.data.datasets[0].data = CDI_DataValue;
+            lineChart.data.datasets[0].data = avg_CDI_DataValue;
             lineChart.data.datasets[0].label = `${selectedTopic} in ${selectedState}`;
             lineChart.update();
         } else {
@@ -99,7 +102,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     labels: YearEnd,
                     datasets: [{
                         label: `${selectedTopic} in ${selectedState}`,
-                        data: CDI_DataValue,
+                        data: avg_CDI_DataValue,
                         borderColor: "#007bff",
                         fill: false,
                         tension: 0.1
@@ -118,7 +121,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         y: {
                             title: {
                                 display: true,
-                                text: "CDI Data Value"
+                                text: "Avg CDI Data Value"
                             }
                         }
                     }
