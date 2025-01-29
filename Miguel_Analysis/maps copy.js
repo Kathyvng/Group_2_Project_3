@@ -1,11 +1,11 @@
 /*maplibre  website use for this with some modification is https://maplibre.org/maplibre-gl-js/docs/examples/hover-styles/  */
 
 const map = new maplibregl.Map({
-    container: 'map',
-    style:
-        'https://api.maptiler.com/maps/streets/style.json?key=get_your_own_OpIi9ZULNHzrESv6T2vL',
-    center: [-128.486052, 50.830348],
-    zoom: 2.5
+        container: 'map',
+        style:
+            'https://api.maptiler.com/maps/streets/style.json?key=get_your_own_OpIi9ZULNHzrESv6T2vL',
+        center: [-100.486052, 37.830348],
+        zoom: 4
     });
     let hoveredStateId = null;
 
