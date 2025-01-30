@@ -100,8 +100,8 @@ const map = new maplibregl.Map({
     ////////////////////////
     
     let popup1 = new maplibregl.Popup({offset: 50}).setText(
-        'Wisconsin, USA: Percentage of active people <insert percentage>.Percentage of Obsssssssssssss sssssssss ssssssssssssss sssssssssssssssss sssssssssssssss ssssssssssssssssssss wsssssssssssssss ww wwwwwwwwwwwwwwwww wwwwwwwwwwwwwww wssssss ssssssssssese people <enter percentage>'
-        +'Chornoic Desease data: ');
+        'Wisconsin, USA: Percentage of active people <insert percentage>.Percentage of'
+        +"Daniel's data");
 
     let popup2 = new maplibregl.Popup({offset: 50}).setText(
         "West Virginia, USA:Miguel data"
