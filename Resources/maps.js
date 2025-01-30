@@ -100,204 +100,204 @@ const map = new maplibregl.Map({
     ////////////////////////
     
     let popup1 = new maplibregl.Popup({offset: 50}).setText(
-        'Wisconsin, USA: Percentage of active people <insert percentage>.Percentage of'
+        'Wisconsin, USA:36% of the population engage in some type of exercise. 34% of the population is classified as overweight. '
         +"Daniel's data");
 
     let popup2 = new maplibregl.Popup({offset: 50}).setText(
-        "West Virginia, USA:Miguel data"
+        "West Virginia, USA: 30% of the population engage in some type of exercise. 35% of the population is classified as overweight. "
         +"Daniel's data");
     
     let popup3 = new maplibregl.Popup({offset: 50}).setText(
-        "Vermont, USA:Miguel data"
+        "Vermont, USA:39% of the population engage in some type of exercise. 31% of the population is classified as overweight. "
         +"Daniel's data");
     
     let popup4 = new maplibregl.Popup({offset: 50}).setText(
-        "Texas,USA: Miguel data"
+        "Texas,USA: 32% of the population engage in some type of exercise. 34% of the population is classified as overweight. "
         +"Daniel's data");
     
     let popup5 = new maplibregl.Popup({offset: 50}).setText(
-        "South Dakota, USA:Miguel data"
+        "South Dakota, USA:33% of the population engage in some type of exercise. 34% of the population is classified as overweight. "
         +"Daniel's data");
     
     let popup6 = new maplibregl.Popup({offset: 50}).setText(
-        "Rhode Island,USA:Miguel data"
+        "Rhode Island,USA:33% of the population engage in some type of exercise. 32% of the population is classified as overweight. "
         +"Daniel's data");
     
     let popup7 = new maplibregl.Popup({offset: 50}).setText(
-        "Oregon, USA: Miguel data"
+        "Oregon, USA: 39% of the population engage in some type of exercise. 32% of the population is classified as overweight. "
         +"Daniel's data");
     
     let popup8 = new maplibregl.Popup({offset: 50}).setText(
-        "New York, USA: Miguel data"
+        "New York, USA: 34% of the population engage in some type of exercise. 31% of the population is classified as overweight. "
         +"Daniel's data");
     
     let popup9 = new maplibregl.Popup({offset: 50}).setText(
-        "New Hampshire, USA: Miguel data"
+        "New Hampshire, USA: 38% of the population engage in some type of exercise. 32% of the population is classified as overweight. "
         +"Daniel's data");
     
     let popup10 = new maplibregl.Popup({offset: 50}).setText(
-        "Nebraska, USA:Miguel data"
+        "Nebraska, USA:33% of the population engage in some type of exercise. 34% of the population is classified as overweight. "
         +"Daniel's data");
     
     let popup11 = new maplibregl.Popup({offset: 50}).setText(
-        "Kansas,USA: Miguel data"
+        "Kansas,USA: 32% of the population engage in some type of exercise. 34% of the population is classified as overweight. "
         +"Daniel's data");
     
     let popup12 = new maplibregl.Popup({offset: 50}).setText(
-        "Mississippi, USA: Miguel data"
+        "Mississippi, USA: 28% of the population engage in some type of exercise. 35% of the population is classified as overweight. "
         +"Daniel's data");
     
     let popup13 = new maplibregl.Popup({offset: 50}).setText(
-        "Illinois, USA: Miguel data"
+        "Illinois, USA:35% of the population engage in some type of exercise. 33% of the population is classified as overweight. "
         +"Daniel's data");
 
     
     let popup14 = new maplibregl.Popup({offset: 50}).setText(
-        "Delaware, USA:Miguel data"
+        "Delaware, USA:34% of the population engage in some type of exercise. 33% of the population is classified as overweight. "
         +"Daniel's data");
     
     let popup15 = new maplibregl.Popup({offset: 50}).setText(
-        "Connecticut,USA:Miguel data"
+        "Connecticut,USA:35% of the population engage in some type of exercise. 32% of the population is classified as overweight. "
         +"Daniel's data");
     
     let popup16 = new maplibregl.Popup({offset: 50}).setText(
-        "Arkansas, USA:Miguel data"
+        "Arkansas, USA:31% of the population engage in some type of exercise. 35% of the population is classified as overweight. "
         +"Daniel's data");
     
     let popup17 = new maplibregl.Popup({offset: 50}).setText(
-        "Indiana, USA: Miguel data"
+        "Indiana, USA: 32% of the population engage in some type of exercise. 34% of the population is classified as overweight. "
         +"Daniel's data");
     
     let popup18 = new maplibregl.Popup({offset: 50}).setText(
-        "Missouri, USA: Miguel data"
+        "Missouri, USA: 31% of the population engage in some type of exercise. 33% of the population is classified as overweight. "
         +"Daniel's data");
     
     let popup19 = new maplibregl.Popup({offset: 50}).setText(
-        "Florida, USA:Miguel data"
+        "Florida, USA:36% of the population engage in some type of exercise. 32% of the population is classified as overweight. "
         +"Daniel's data");
     
     let popup20 = new maplibregl.Popup({offset: 50}).setText(
-        "Nevada, USA: Miguel data"
+        "Nevada, USA: 35% of the population engage in some type of exercise. 32% of the population is classified as overweight. "
         +"Daniel's data");
     
     let popup21 = new maplibregl.Popup({offset: 50}).setText(
-        "Maine, USA:Miguel data"
+        "Maine, USA:36% of the population engage in some type of exercise. 33% of the population is classified as overweight. "
         +"Daniel's data");
     
     let popup22 = new maplibregl.Popup({offset: 50}).setText(
-        "Michigan, USA: Miguel data"
+        "Michigan, USA: 35% of the population engage in some type of exercise. 33% of the population is classified as overweight. "
         +"Daniel's data");
     
     let popup23 = new maplibregl.Popup({offset: 50}).setText(
-        "Georgia, USA: Miguel data"
+        "Georgia, USA: 34% of the population engage in some type of exercise. 33% of the population is classified as overweight. "
         +"Daniel's data");
     
     let popup24 = new maplibregl.Popup({offset: 50}).setText(
-        "Hawaii, USA: Miguel data"
+        "Hawaii, USA: 40% of the population engage in some type of exercise. 30% of the population is classified as overweight. "
         +"Daniel's data");
     
     let popup25 = new maplibregl.Popup({offset: 50}).setText(
-        "Alaska, USA: Miguel data"
+        "Alaska, USA: 39% of the population engage in some type of exercise. 33% of the population is classified as overweight. "
         +"Daniel's data");
     
     let popup26 = new maplibregl.Popup({offset: 50}).setText(
-        "Tennessee, USA: Miguel data"
+        "Tennessee, USA: 30% of the population engage in some type of exercise. 34% of the population is classified as overweight. "
         +"Daniel's data");
     
     let popup27 = new maplibregl.Popup({offset: 50}).setText(
-        "Virginia, USA: Miguel data"
+        "Virginia, USA: 35% of the population engage in some type of exercise. 33% of the population is classified as overweight. "
         +"Daniel's data");
     
     let popup28 = new maplibregl.Popup({offset: 50}).setText(
-        "New Jersey, USA:Miguel data"
+        "New Jersey, USA:35% of the population engage in some type of exercise. 32% of the population is classified as overweight. "
         +"Daniel's data");
     
     let popup29 = new maplibregl.Popup({offset: 50}).setText(
-        "Kentucky, USA: Miguel data"
+        "Kentucky, USA: 30% of the population engage in some type of exercise. 34% of the population is classified as overweight. "
         +"Daniel's data");
     
     let popup30 = new maplibregl.Popup({offset: 50}).setText(
-        "North Dakota, USA:Miguel data"
+        "North Dakota, USA:32% of the population engage in some type of exercise. 34% of the population is classified as overweight. "
         +"Daniel's data");
     
     let popup31 = new maplibregl.Popup({offset: 50}).setText(
-        "Minnesota, USA: Miguel data"
+        "Minnesota, USA: 36% of the population engage in some type of exercise. 32% of the population is classified as overweight. "
         +"Daniel's data");
     
     let popup32 = new maplibregl.Popup({offset: 50}).setText(
-        "Oklahoma,USA:Miguel data"
+        "Oklahoma,USA:29% of the population engage in some type of exercise. 34% of the population is classified as overweight. "
         +"Daniel's data");
     
     let popup33 = new maplibregl.Popup({offset: 50}).setText(
-        "Montana, USA:Miguel data"
+        "Montana, USA:40% of the population engage in some type of exercise. 32% of the population is classified as overweight. "
         +"Daniel's data");
     
     let popup34 = new maplibregl.Popup({offset: 50}).setText(
-        "Washington, USA:Miguel data"
+        "Washington, USA:38% of the population engage in some type of exercise. 32% of the population is classified as overweight. "
         +"Daniel's data");
     
     let popup35 = new maplibregl.Popup({offset: 50}).setText(
-        "Utah, USA: Miguel data"
+        "Utah, USA: 37% of the population engage in some type of exercise. 31% of the population is classified as overweight. "
         +"Daniel's data");
     
     let popup36 = new maplibregl.Popup({offset: 50}).setText(
-        "Colorado, USA: Miguel data"
+        "Colorado, USA: 41% of the population engage in some type of exercise. 29% of the population is classified as overweight. "
         +"Daniel's data");
     
     let popup37 = new maplibregl.Popup({offset: 50}).setText(
-        "Ohio, USA: Miguel data"
+        "Ohio, USA: 34% of the population engage in some type of exercise. 33% of the population is classified as overweight. "
         +"Daniel's data");
     
     let popup38 = new maplibregl.Popup({offset: 50}).setText(
-        "Alabama, USA: Miguel data"
+        "Alabama, USA: 30% of the population engage in some type of exercise. 35% of the population is classified as overweight. "
         +"Daniel's data");
     
     let popup39 = new maplibregl.Popup({offset: 50}).setText(
-        "Iowa, USA: Miguel data"
+        "Iowa, USA: 32% of the population engage in some type of exercise. 34% of the population is classified as overweight.  "
         +"Daniel's data");
     
     let popup40 = new maplibregl.Popup({offset: 50}).setText(
-        "New Mexico, USA:Miguel data"
+        "New Mexico, USA: 38% of the population engage in some type of exercise. 33% of the population is classified as overweight. "
         +"Daniel's data");
     
     let popup41 = new maplibregl.Popup({offset: 50}).setText(
-        "South Carolina, USA:Miguel data"
+        "South Carolina, USA:34% of the population engage in some type of exercise. 34% of the population is classified as overweight. "
         +"Daniel's data");
     
     let popup42 = new maplibregl.Popup({offset: 50}).setText(
-        "Pennsylvania, USA: Miguel data"
+        "Pennsylvania, USA: 32% of the population engage in some type of exercise. 33% of the population is classified as overweight. "
         +"Daniel's data");
     
     let popup43 = new maplibregl.Popup({offset: 50}).setText(
-        "Arizona, USA: Miguel data"
+        "Arizona, USA: 37% of the population engage in some type of exercise. 32% of the population is classified as overweight. "
         +"Daniel's data");
     
     let popup44 = new maplibregl.Popup({offset: 50}).setText(
-        "Maryland, USA:Miguel data"
+        "Maryland, USA: 34% of the population engage in some type of exercise. 33% of the population is classified as overweight. "
         +"Daniel's data");
     
     let popup45 = new maplibregl.Popup({offset: 50}).setText(
-        "Massachusetts, USA: Miguel data"
+        "Massachusetts, USA: 35% of the population engage in some type of exercise. 30% of the population is classified as overweight. "
         +"Daniel's data");
     
     let popup46 = new maplibregl.Popup({offset: 50}).setText(
-        "California, USA:Miguel data"
+        "California, USA: 39% of the population engage in some type of exercise. 31% of the population is classified as overweight. "
         +"Daniel's data");
     
     let popup47 = new maplibregl.Popup({offset: 50}).setText(
-        "Idaho, USA: Miguel data"
+        "Idaho, USA: 37% of the population engage in some type of exercise. 33% of the population is classified as overweight. "
         +"Daniel's data");
     
     let popup48 = new maplibregl.Popup({offset: 50}).setText(
-        "Wyoming, USA:Miguel data"
+        "Wyoming, USA:32% of the population engage in some type of exercise. 34% of the population is classified as overweight. "
         +"Daniel's data");
     
     let popup49 = new maplibregl.Popup({offset: 50}).setText(
-        "North Carolina, USA:Miguel data"
+        "North Carolina, USA:32% of the population engage in some type of exercise. 34% of the population is classified as overweight. "
         +"Daniel's data");
     
     let popup50 = new maplibregl.Popup({offset: 50}).setText(
-        "Louisiana, USA: Miguel data"
+        "Louisiana, USA: 31% of the population engage in some type of exercise. 35% of the population is classified as overweight. "
         +"Daniel's data");
     
     
