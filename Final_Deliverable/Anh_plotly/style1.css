@@ -18,20 +18,41 @@ body {
         font-size: 40;
         font-weight: bold;
         line-height: 1.2;
-        margin-top: 20px;
+        margin-top: 30px;
         margin-bottom: 20px;
 }
 
 .lowertitle {text-align: center;
             font-size: 16;
             color: #666;
-            margin-top: 10px;
+            margin-top: 20px;
 }
 
 .middle {display: flex;
 justify-content: center;
 align-items: center;
-margin: 20px;
+margin: 10px;
+}
+
+/* Custom button styling */
+.btn-custom {
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+    padding: 12px 30px; /* Larger padding for button */
+    font-size: 18px; /* Larger font size */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Soft shadow */
+}
+
+/* Hover effect for the button */
+.btn-custom:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    text-decoration: none;
+}
+
+/* Move the button up */
+.btn-container {
+    margin-top: -10px; /* Adjust this value to move the button higher or lower */
 }
 
 #sample-metadata {

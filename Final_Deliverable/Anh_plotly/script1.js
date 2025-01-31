@@ -66,12 +66,12 @@ document.addEventListener("DOMContentLoaded", function () {
                 size: weightedData,  // Bubble size based on Weighted Data Value
                 color: weightedData,
             },
-            text: years.map((year, index) => `Year: ${year}<br>Total Sample: ${totalSample[index]}<br>Average Data Value: ${weightedData[index]}`),
+            text: years.map((year, index) => `Year: ${year}<br>Total Sample Size: ${totalSample[index]}<br>Average Data Value: ${weightedData[index]}`),
             type: 'scatter'
         }];
 
         const bubbleChartLayout = {
-            title: `${selectedQuestion}<br>Total Sample vs Year`,
+            title: `${selectedQuestion}<br>Total Sample Size vs Year`,
             xaxis: { title: 'Year' },
             yaxis: { title: 'Total Sample Size' },
             showlegend: false
