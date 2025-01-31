@@ -101,204 +101,204 @@ const map = new maplibregl.Map({
     
     let popup1 = new maplibregl.Popup({offset: 50}).setText(
         'Wisconsin, USA: Percentage of active people <insert percentage>.Percentage of Obsssssssssssss sssssssss ssssssssssssss sssssssssssssssss sssssssssssssss ssssssssssssssssssss wsssssssssssssss ww wwwwwwwwwwwwwwwww wwwwwwwwwwwwwww wssssss ssssssssssese people <enter percentage>'
-        +'Chornoic Desease data: ');
+        +'Chronic Disease Data: Cancer: 3072, Cardiovascular Disease: 1200, Chronic Obstructive Pulmonary Disease: 480');
 
     let popup2 = new maplibregl.Popup({offset: 50}).setText(
         "West Virginia, USA:Miguel data"
-        +"Daniel's data");
+        +"Chronic Disease Data: Cancer: 3072, Cardiovascular Disease: 1185, Chronic Obstructive Pulmonary Disease: 480");
     
     let popup3 = new maplibregl.Popup({offset: 50}).setText(
         "Vermont, USA:Miguel data"
-        +"Daniel's data");
+        +"Chronic Disease Data: Cancer: 3072, Cardiovascular Disease: 1176, Chronic Obstructive Pulmonary Disease: 480");
     
     let popup4 = new maplibregl.Popup({offset: 50}).setText(
         "Texas,USA: Miguel data"
-        +"Daniel's data");
+        +"Chronic Disease Data: Cancer: 3072, Cardiovascular Disease: 1200, Chronic Obstructive Pulmonary Disease: 480");
     
     let popup5 = new maplibregl.Popup({offset: 50}).setText(
         "South Dakota, USA:Miguel data"
-        +"Daniel's data");
+        +"Chronic Disease Data: Cancer: 3072, Cardiovascular Disease: 1197, Arthritis: 583");
     
     let popup6 = new maplibregl.Popup({offset: 50}).setText(
         "Rhode Island,USA:Miguel data"
-        +"Daniel's data");
+        +"Chronic Disease Data: Cancer: 3072, Cardiovascular Disease: 1287, Arthritis: 704");
     
     let popup7 = new maplibregl.Popup({offset: 50}).setText(
         "Oregon, USA: Miguel data"
-        +"Daniel's data");
+        +"Chronic Disease Data: Cancer: 3072, Cardiovascular Disease: 1296, Arthritis: 704");
     
     let popup8 = new maplibregl.Popup({offset: 50}).setText(
         "New York, USA: Miguel data"
-        +"Daniel's data");
+        +"Chronic Disease Data: Cancer: 3072, Cardiovascular Disease: 1296, Arthritis: 704");
     
     let popup9 = new maplibregl.Popup({offset: 50}).setText(
         "New Hampshire, USA: Miguel data"
-        +"Daniel's data");
+        +"Chronic Disease Data: Cancer: 3072, Cardiovascular Disease: 1272, Arthritis: 704");
     
     let popup10 = new maplibregl.Popup({offset: 50}).setText(
         "Nebraska, USA:Miguel data"
-        +"Daniel's data");
+        +"Chronic Disease Data: Cancer: 3072, Cardiovascular Disease: 1293, Arthritis: 704");
     
     let popup11 = new maplibregl.Popup({offset: 50}).setText(
         "Kansas,USA: Miguel data"
-        +"Daniel's data");
+        +"Chronic Disease Data: Cancer: 3072, Cardiovascular Disease: 1296, Arthritis: 704");
     
     let popup12 = new maplibregl.Popup({offset: 50}).setText(
         "Mississippi, USA: Miguel data"
-        +"Daniel's data");
+        +"Chronic Disease Data: Cancer: 3072, Cardiovascular Disease: 1296, Arthritis: 704");
     
     let popup13 = new maplibregl.Popup({offset: 50}).setText(
         "Illinois, USA: Miguel data"
-        +"Daniel's data");
+        +"Chronic Disease Data: Cancer: 3072, Cardiovascular Disease: 1290, Arthritis: 704");
 
     
     let popup14 = new maplibregl.Popup({offset: 50}).setText(
         "Delaware, USA:Miguel data"
-        +"Daniel's data");
+        +"Chronic Disease Data: Cancer: 3072, Cardiovascular Disease: 1284, Arthritis: 704");
     
     let popup15 = new maplibregl.Popup({offset: 50}).setText(
         "Connecticut,USA:Miguel data"
-        +"Daniel's data");
+        +"Chronic Disease Data: Cancer: 3072, Cardiovascular Disease: 1290, Arthritis: 704");
     
     let popup16 = new maplibregl.Popup({offset: 50}).setText(
         "Arkansas, USA:Miguel data"
-        +"Daniel's data");
+        +"Chronic Disease Data: 3072, Cardiovascular Disease: 1293, Arthritis: 704");
     
     let popup17 = new maplibregl.Popup({offset: 50}).setText(
         "Indiana, USA: Miguel data"
-        +"Daniel's data");
+        +"Chronic Disease Data: Cancer: 3072, Cardiovascular Disease: 1290, Arthritis: 704");
     
     let popup18 = new maplibregl.Popup({offset: 50}).setText(
         "Missouri, USA: Miguel data"
-        +"Daniel's data");
+        +"Chronic Disease Data: Cancer: 3072, Cardiovascular Disease: 1296, Arthritis: 704");
     
     let popup19 = new maplibregl.Popup({offset: 50}).setText(
         "Florida, USA:Miguel data"
-        +"Daniel's data");
+        +"Chronic Disease Data: Cancer: 3072, Cardiovascular Disease: 1296, Arthritis: 704");
     
     let popup20 = new maplibregl.Popup({offset: 50}).setText(
         "Nevada, USA: Miguel data"
-        +"Daniel's data");
+        +"Chronic Disease Data: Cancer: 3072, Cardiovascular Disease: 1296, Arthritis: 704");
     
     let popup21 = new maplibregl.Popup({offset: 50}).setText(
         "Maine, USA:Miguel data"
-        +"Daniel's data");
+        +"Chronic Disease Data: Cancer: 3072, Cardiovascular Disease: 1275, Arthritis: 704");
     
     let popup22 = new maplibregl.Popup({offset: 50}).setText(
         "Michigan, USA: Miguel data"
-        +"Daniel's data");
+        +"Chronic Disease Data: Cancer: 3072, Cardiovascular Disease: 1296, Arthritis: 704");
     
     let popup23 = new maplibregl.Popup({offset: 50}).setText(
         "Georgia, USA: Miguel data"
-        +"Daniel's data");
+        +"Chronic Disease Data: Cancer: 3072, Cardiovascular Disease: 1290, Arthritis: 704");
     
     let popup24 = new maplibregl.Popup({offset: 50}).setText(
         "Hawaii, USA: Miguel data"
-        +"Daniel's data");
+        +"Chronic Disease Data: Cancer: 3072, Cardiovascular Disease: 1287, Arthritis: 704");
     
     let popup25 = new maplibregl.Popup({offset: 50}).setText(
         "Alaska, USA: Miguel data"
-        +"Daniel's data");
+        +"Chronic Disease Data: Cancer: 3072, Cardiovascular Disease: 1293, Arthritis: 704");
     
     let popup26 = new maplibregl.Popup({offset: 50}).setText(
         "Tennessee, USA: Miguel data"
-        +"Daniel's data");
+        +"Chronic Disease Data: Cancer: 3072, Cardiovascular Disease: 1194, Chronic Obstructive Pulmonary Disease: 480");
     
     let popup27 = new maplibregl.Popup({offset: 50}).setText(
         "Virginia, USA: Miguel data"
-        +"Daniel's data");
+        +"Chronic Disease Data: Cancer: 3072, Cardiovascular Disease: 1200, Chronic Obstructive Pulmonary Disease: 480");
     
     let popup28 = new maplibregl.Popup({offset: 50}).setText(
         "New Jersey, USA:Miguel data"
-        +"Daniel's data");
+        +"Chronic Disease Data: Cancer: 3072, Cardiovascular Disease: 1290, Arthritis: 704");
     
     let popup29 = new maplibregl.Popup({offset: 50}).setText(
         "Kentucky, USA: Miguel data"
-        +"Daniel's data");
+        +"Chronic Disease Data: Cancer: 3072, Cardiovascular Disease: 1290, Arthritis: 704");
     
     let popup30 = new maplibregl.Popup({offset: 50}).setText(
         "North Dakota, USA:Miguel data"
-        +"Daniel's data");
+        +"Chronic Disease Data: Cancer: 3072, Cardiovascular Disease: 1278, Arthritis: 704");
     
     let popup31 = new maplibregl.Popup({offset: 50}).setText(
         "Minnesota, USA: Miguel data"
-        +"Daniel's data");
+        +"Chronic Disease Data: Cancer: 3072, Cardiovascular Disease: 1296, Arthritis: 704");
     
     let popup32 = new maplibregl.Popup({offset: 50}).setText(
         "Oklahoma,USA:Miguel data"
-        +"Daniel's data");
+        +"Chronic Disease Data: Cancer: 3072, Cardiovascular Disease: 1296, Arthritis: 704");
     
     let popup33 = new maplibregl.Popup({offset: 50}).setText(
         "Montana, USA:Miguel data"
-        +"Daniel's data");
+        +"Chronic Disease Data: Cancer: 3072, Cardiovascular Disease: 1281, Arthritis: 704");
     
     let popup34 = new maplibregl.Popup({offset: 50}).setText(
         "Washington, USA:Miguel data"
-        +"Daniel's data");
+        +"Chronic Disease Data: Cancer: 3072, Cardiovascular Disease: 1200, Chronic Obstructive Pulmonary Disease: 480");
     
     let popup35 = new maplibregl.Popup({offset: 50}).setText(
         "Utah, USA: Miguel data"
-        +"Daniel's data");
+        +"Chronic Disease Data: Cancer: 3072, Cardiovascular Disease: 1200, Chronic Obstructive Pulmonary Disease: 480");
     
     let popup36 = new maplibregl.Popup({offset: 50}).setText(
         "Colorado, USA: Miguel data"
-        +"Daniel's data");
+        +"Chronic Disease Data: Cancer: 3072, Cardiovascular Disease: 1296, Arthritis: 704");
     
     let popup37 = new maplibregl.Popup({offset: 50}).setText(
         "Ohio, USA: Miguel data"
-        +"Daniel's data");
+        +"Chronic Disease Data: Cancer: 3072, Cardiovascular Disease: 1296, Arthritis: 704");
     
     let popup38 = new maplibregl.Popup({offset: 50}).setText(
         "Alabama, USA: Miguel data"
-        +"Daniel's data");
+        +"Chronic Disease Data: Cancer: 3072, Cardiovascular Disease: 1296, Arthritis: 704");
     
     let popup39 = new maplibregl.Popup({offset: 50}).setText(
         "Iowa, USA: Miguel data"
-        +"Daniel's data");
+        +"Chronic Disease Data: Cancer: 3072, Cardiovascular Disease: 1290, Arthritis: 704");
     
     let popup40 = new maplibregl.Popup({offset: 50}).setText(
         "New Mexico, USA:Miguel data"
-        +"Daniel's data");
+        +"Chronic Disease Data: Cancer: 3072, Cardiovascular Disease: 1296, Arthritis: 704");
     
     let popup41 = new maplibregl.Popup({offset: 50}).setText(
         "South Carolina, USA:Miguel data"
-        +"Daniel's data");
+        +"Chronic Disease Data: Cancer: 3072, Cardiovascular Disease: 1280, Arthritis: 639");
     
     let popup42 = new maplibregl.Popup({offset: 50}).setText(
         "Pennsylvania, USA: Miguel data"
-        +"Daniel's data");
+        +"Chronic Disease Data: Cancer: 3072, Cardiovascular Disease: 1290, Arthritis: 704");
     
     let popup43 = new maplibregl.Popup({offset: 50}).setText(
         "Arizona, USA: Miguel data"
-        +"Daniel's data");
+        +"Chronic Disease Data: Cancer: 3072, Cardiovascular Disease: 1296, Arthritis: 704");
     
     let popup44 = new maplibregl.Popup({offset: 50}).setText(
         "Maryland, USA:Miguel data"
-        +"Daniel's data");
+        +"Chronic Disease Data: Cancer: 3072, Cardiovascular Disease: 1290, Arthritis: 704");
     
     let popup45 = new maplibregl.Popup({offset: 50}).setText(
         "Massachusetts, USA: Miguel data"
-        +"Daniel's data");
+        +"Chronic Disease Data: Cancer: 3072, Cardiovascular Disease: 1293, Arthritis: 704");
     
     let popup46 = new maplibregl.Popup({offset: 50}).setText(
         "California, USA:Miguel data"
-        +"Daniel's data");
+        +"Chronic Disease Data: 3072, Cardiovascular Disease: 1296, Arthritis: 704");
     
     let popup47 = new maplibregl.Popup({offset: 50}).setText(
         "Idaho, USA: Miguel data"
-        +"Daniel's data");
+        +"Chronic Disease Data: 3072, Cardiovascular Disease: 1290, Arthritis: 704");
     
     let popup48 = new maplibregl.Popup({offset: 50}).setText(
         "Wyoming, USA:Miguel data"
-        +"Daniel's data");
+        +"Chronic Disease Data: Cancer: 3072, Cardiovascular Disease: 1185, Chronic Obstructive Pulmonary Disease: 480");
     
     let popup49 = new maplibregl.Popup({offset: 50}).setText(
         "North Carolina, USA:Miguel data"
-        +"Daniel's data");
+        +"Chronic Disease Data: Cancer: 3072, Cardiovascular Disease: 1296, Arthritis: 704");
     
     let popup50 = new maplibregl.Popup({offset: 50}).setText(
         "Louisiana, USA: Miguel data"
-        +"Daniel's data");
+        +"Chronic Disease Data: Cancer: 3072, Cardiovascular Disease: 1296, Arthritis: 704");
     
     
     
