@@ -1,7 +1,7 @@
 d3.json("disease_counts.json").then(data => {
   const stateDiseaseCounts = {};
   
-  // Define locations to exclude
+  //Locations to exclude
   const excludedLocations = [
       "Guam",
       "District of Columbia",
@@ -16,7 +16,7 @@ d3.json("disease_counts.json").then(data => {
 
       // Check if the state is in the excluded locations
       if (excludedLocations.includes(state)) {
-          continue; // Skip this entry if it's in the excluded list
+          continue; 
       }
 
       const disease = entry.CDI_Topic;

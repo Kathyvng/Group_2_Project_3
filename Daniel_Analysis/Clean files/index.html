@@ -9,12 +9,27 @@
         body {
             font-family: Arial, sans-serif;
             margin: 20px;
+            background-color: lightblue; /* Light background color */
+            color: coral; /* Dark font color */
         }
         h1 {
             text-align: center;
         }
         #results {
             margin-top: 20px;
+            display: flex;
+            flex-wrap: wrap; /* Allow wrapping for columns */
+        }
+        .state {
+            flex: 1 1 30%; /* Allow each state to take up to 30% of the width */
+            margin: 10px;
+            padding: 15px;
+            background-color: #e6f7ff; /* Light blue background for each state */
+            border: 1px solid lightskyblue; /* Blue border */
+            border-radius: 5px;
+        }
+        .disease {
+            margin: 5px 0;
         }
     </style>
 </head>
@@ -68,10 +83,10 @@
             const resultsDiv = d3.select("#results");
             for (const state in topDiseasesPerState) {
                 const diseases = topDiseasesPerState[state];
-                resultsDiv.append("h3").text(state);
-                const ul = resultsDiv.append("ul");
+                const stateDiv = resultsDiv.append("div").attr("class", "state");
+                stateDiv.append("h3").text(state);
                 diseases.forEach(disease => {
-                    ul.append("li").text(`${disease.topic}: ${disease.count}`);
+                    stateDiv.append("div").attr("class", "disease").text(`${disease.topic}: ${disease.count}`);
                 });
             }
         }).catch(error => {
