@@ -17,7 +17,7 @@ body {
     flex-direction:column;
     
     top:200px;
-    bottom: 20px;
+    bottom: 50px;
     width: 80%;
     margin-left: 10;
     margin-right: 10;
@@ -64,16 +64,17 @@ justify-content: center;}
 
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: rgb(206, 198, 198);
 }
 
 .topnav a {
-  float: left;
-  color: #f2f2f2;
+  float: center;
+  color: #050505;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  font-weight: bold;
 }
 
 .topnav a:hover {
@@ -82,9 +83,14 @@ justify-content: center;}
 }
 
 .topnav a.active {
-  background-color: #04AA6D;
-  color: white;
+  background-color: #080808;
+  color: white;}
 
-.topnav a.active {
-  background-color: #04AA6D;
-  color: white;
+.footer {
+  position: absolute;
+  
+  float: center;
+  bottom: 0px;
+  text-align: center;
+
+}
