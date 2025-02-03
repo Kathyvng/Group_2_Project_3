@@ -29,9 +29,18 @@ document.addEventListener("DOMContentLoaded", function () {
         // Populate Question dropdown
         questionSelect.innerHTML = uniqueQuestions.map(question => `<option value="${question}">${question}</option>`).join("");
 
-        // Set default selections and update chart
-        stateSelect.value = uniqueStates[0];
-        questionSelect.value = uniqueQuestions[0];
+        // Set default selections (Alabama and Obesity Percentage)
+        const defaultState = "Alabama";
+        const defaultQuestion = "Percent of adults aged 18 years and older who have obesity";
+
+        // Check if the default values exist in the available options
+        if (uniqueStates.includes(defaultState)) {
+            stateSelect.value = defaultState;
+        }
+
+        if (uniqueQuestions.includes(defaultQuestion)) {
+            questionSelect.value = defaultQuestion;
+        }
 
         // Load initial chart
         updateCharts();
