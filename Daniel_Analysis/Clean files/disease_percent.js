@@ -1,4 +1,4 @@
-d3.json("disease_counts.json").then(data => {
+d3.json("disease_percent.json").then(data => {
     const excludedLocations = ["Guam", "District of Columbia", "Virgin Islands", "United States", "Puerto Rico"];
     const stateDiseaseCounts = {};
 
