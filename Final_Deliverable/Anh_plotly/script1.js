@@ -93,21 +93,24 @@ document.addEventListener("DOMContentLoaded", function () {
                 y: weightedData,
                 type: 'bar',
                 name: 'Average Data Value',
-                marker: { color: '#73b2ff' }
+                marker: { color: '#73b2ff' },
+                visible: true
             },
             {
                 x: years,
                 y: highConfidence,
                 type: 'bar',
                 name: 'Average High Confidence Limit',
-                marker: { color: '#fea3b8' }
+                marker: { color: '#fea3b8' },
+                visible: 'legendonly'
             },
             {
                 x: years,
                 y: lowConfidence,
                 type: 'bar',
                 name: 'Average Low Confidence Limit',
-                marker: { color: '#98d9da' }
+                marker: { color: '#98d9da' },
+                visible: 'legendonly'
             }
         ];
 
