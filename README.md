@@ -14,7 +14,8 @@ The project consists of the following structure:
 - **`final_Static_Deliverables/`**: Folder containing the project's static assets.
   - **`css/`**: Contains the `global_style.css` file for custom styling.
   - **`js/`**: Contains the `global_script.js` file for the project's custom JavaScript functionality.
-
+  - **`Data/`**: Cleaned data available in JSON files and in a Python Jupyter Notebook. 
+  - 
 ### Homepage (Map Overview)
 The homepage displays an interactive map of the U.S. where users can hover over and click on state markers to see basic health statistics, including:
 - Obesity percentage
