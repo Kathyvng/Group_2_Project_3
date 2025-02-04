@@ -23,13 +23,12 @@
 ---
 
 - Home page
-![Home page](/final_Static_Deliverables/README/Readme_Home_map_picture.png)
+
 
 ---
 - Health Statistic Page
-![Health stats](final_Static_Deliverables/README/Readme_Health_stat.png)
+
 
 
 ---
 -State and Topic Insights Page
-![state and topic insights](final_Static_Deliverables/README/Readme_state_and_topic_insights.png)
