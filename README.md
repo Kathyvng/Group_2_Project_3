@@ -8,14 +8,12 @@ This project explores trends and disparities in physical activity, obesity, and 
 
 ## Features and How to Use
 
-/ (root directory)
-  └── index.html          # Main HTML file
-  └── final_Static_Deliverables/
-        └── css/
-            └── global_style.css
-        └── js/
-            └── global_script.js
+The project consists of the following structure:
 
+- **`index.html`**: The main HTML file, located in the root directory.
+- **`final_Static_Deliverables/`**: Folder containing the project's static assets.
+  - **`css/`**: Contains the `global_style.css` file for custom styling.
+  - **`js/`**: Contains the `global_script.js` file for the project's custom JavaScript functionality.
 
 ### Homepage (Map Overview)
 The homepage displays an interactive map of the U.S. where users can hover over and click on state markers to see basic health statistics, including:
