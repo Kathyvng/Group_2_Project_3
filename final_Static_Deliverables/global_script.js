@@ -21,10 +21,10 @@ document.addEventListener("DOMContentLoaded", function () {
                 jsonData = data;
                 populateDropdowns();
             })
-            .catch(error => {
-                console.error("Error loading JSON data:", error);
-                alert("Failed to load data. Check console for errors.");
-            });
+            //commented out to use in multiple htmls .catch(error => {
+            //commented out to use in multiple htmls     console.error("Error loading JSON data:", error);
+                //commented out to use in multiple htmls alert("Failed to load data. Check console for errors.");
+            //commented out to use in multiple htmls });
     }
 
     // Populate dropdowns with unique states and questions
@@ -44,9 +44,8 @@ document.addEventListener("DOMContentLoaded", function () {
             stateSelect.innerHTML = uniqueStates.map(state => `<option value="${state}">${state}</option>`).join("");
             // Populate Question dropdown
             questionSelect.innerHTML = uniqueQuestions.map(question => `<option value="${question}">${question}</option>`).join("");
-        } else {
-            console.error("Dropdown elements not found.");
-        }
+        } 
+        //commented out to use in multiple htmls else {console.error("Dropdown elements not found.");        }
 
         // Set default selections (National and Obesity Percentage)
         const defaultState = "National";
@@ -152,9 +151,9 @@ document.addEventListener("DOMContentLoaded", function () {
     if (stateSelect && questionSelect) {
         stateSelect.addEventListener('change', updateCharts);
         questionSelect.addEventListener('change', updateCharts);
-    } else {
-        console.error("Dropdown elements not found.");
-    }
+    } //commented out to use in multiple htmls else {
+       //commented out to use in multiple htmls  console.error("Dropdown elements not found.");
+//commented out to use in multiple htmls }
 
     // Load JSON data on page load
     loadJsonData();
