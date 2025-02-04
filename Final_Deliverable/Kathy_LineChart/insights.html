@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf_8">
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>State and Topic Insights</title>
 
@@ -14,12 +14,11 @@
   <script src="https://d3js.org/d3.v6.min.js"></script>
 
   <style>
-    /* Ensures chart has a proper height */
-    #chart-container {
+    /* Ensures each chart container has a proper height */
+    .chart-container {
       height: 400px;
     }
   </style>
-
 </head>
 <body>
 
@@ -27,7 +26,6 @@
     <a href="/index.html" class="active">Reset map Location</a>
     <a href="/Final_Deliverable/Anh_plotly/index1.html">Bar Chart: Health Statistics</a>
     <a href="/Final_Deliverable/Kathy_LineChart/insights.html">Trend Line Chart: Chronic Disease Indicator</a>
-
   </div>
 
   <!-- Header Section -->
@@ -38,8 +36,9 @@
 
   <!-- Main Content -->
   <div class="container mt-4">
+    <!-- First Chart Section -->
     <div class="row">
-      <!-- Dropdown Selections -->
+      <!-- Dropdown Selections for Chart 1 -->
       <div class="col-md-4">
         <label for="state-select" class="form-label">Select State:</label>
         <select id="state-select" class="form-select"></select>
@@ -47,12 +46,31 @@
         <label for="topic-select" class="form-label mt-3">Select Topic:</label>
         <select id="topic-select" class="form-select"></select>
       </div>
-
-      <!-- Trend Line Chart -->
+      <!-- Chart 1 -->
       <div class="col-md-8">
         <div class="card p-3">
-          <div id="chart-container">
+          <div id="chart-container1" class="chart-container">
             <canvas id="lineChart"></canvas>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Second Chart Section -->
+    <div class="row mt-4">
+      <!-- Dropdown Selections for Chart 2 -->
+      <div class="col-md-4">
+        <label for="state-select2" class="form-label">Select State:</label>
+        <select id="state-select2" class="form-select"></select>
+
+        <label for="question-select" class="form-label mt-3">Select Question:</label>
+        <select id="question-select" class="form-select"></select>
+      </div>
+      <!-- Chart 2 -->
+      <div class="col-md-8">
+        <div class="card p-3">
+          <div id="chart-container2" class="chart-container">
+            <canvas id="lineChart2"></canvas>
           </div>
         </div>
       </div>
@@ -69,6 +87,5 @@
 
   <!-- External JavaScript for Chart -->
   <script src="script.js"></script>
-
 </body>
 </html>
