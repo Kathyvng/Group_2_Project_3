@@ -8,6 +8,15 @@ This project explores trends and disparities in physical activity, obesity, and 
 
 ## Features and How to Use
 
+/ (root directory)
+  └── index.html          # Main HTML file
+  └── final_Static_Deliverables/
+        └── css/
+            └── global_style.css
+        └── js/
+            └── global_script.js
+
+
 ### Homepage (Map Overview)
 The homepage displays an interactive map of the U.S. where users can hover over and click on state markers to see basic health statistics, including:
 - Obesity percentage
