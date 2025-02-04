@@ -171,7 +171,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Function to load JSON data using the Fetch API
     function loadJsonData() {
-        fetch("/final_Static_Deliverables/CDI_Avg_Topic_Questions.json")
+        fetch("/final_Static_Deliverables/Data/CDI_Avg_Topic_Questions.json")
             .then(response => {
                 if (!response.ok) {
                     throw new Error(`HTTP error! Status: ${response.status}`);
