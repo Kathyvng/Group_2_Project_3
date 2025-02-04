@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disease Distribution by State</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .chart-container {
+            margin: 20px auto;
+            width: 80%;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Disease Distribution by State</h1>
+    <label for="state-select">Select a State:</label>
+    <select id="state-select"></select>
+    
+    <div id="charts-container" class="chart-container"></div>
+
+    <script>
+        d3.json("disease_counts.json").then(data => {
+            const excludedLocations = ["Guam", "District of Columbia", "Virgin Islands", "United States", "Puerto Rico"];
+            const stateDiseaseCounts = {};
+
+            data.forEach(({ LocationDesc: state, CDI_Topic: disease, Count: count }) => {
+                if (!excludedLocations.includes(state)) {
+                    stateDiseaseCounts[state] = stateDiseaseCounts[state] || [];
+                    stateDiseaseCounts[state].push({ topic: disease, count });
+                }
+            });
+
+            const stateSelect = d3.select("#state-select");
+            Object.keys(stateDiseaseCounts).forEach(state => {
+                stateSelect.append("option").text(state).attr("value", state);
+            });
+
+            function updateChart(selectedState) {
+                const diseases = stateDiseaseCounts[selectedState]
+                    .sort((a, b) => b.count - a.count)
+                    .slice(0, 7); 
+
+                const totalCount = diseases.reduce((sum, d) => sum + d.count, 0);
+                const pieChartData = diseases.map(d => ({
+                    topic: d.topic,
+                    count: d.count,
+                    percentage: ((d.count / totalCount) * 100).toFixed(2)
+                }));
+
+                Plotly.newPlot("charts-container", [{
+                    labels: pieChartData.map(d => d.topic),
+                    values: pieChartData.map(d => d.count),
+                    type: 'pie',
+                    textinfo: 'label+percent',
+                    hoverinfo: 'label+percent'
+                }], { title: `Disease Distribution in ${selectedState}`, height: 800, width: 800 });
+            }
+
+            const initialState = Object.keys(stateDiseaseCounts)[0];
+            updateChart(initialState);
+
+            stateSelect.on("change", function() {
+                updateChart(this.value);
+            });
+
+        }).catch(error => console.error('Error loading JSON:', error));
+    </script>
+</body>
+</html>
