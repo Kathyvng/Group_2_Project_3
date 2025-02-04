@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Load JSON data using Fetch API
     function loadJsonData() {
-        fetch('/General_Analysis/Anh_plotly/nutrition_obesity_cleaned.json')  // Ensure the file path is correct
+        fetch('./General_Analysis/Anh_plotly/nutrition_obesity_cleaned.json')  // Ensure the file path is correct
             .then(response => response.json())
             .then(data => {
                 jsonData = data;
