@@ -13,10 +13,6 @@
   <!-- Load D3 for debugging -->
   <script src="https://d3js.org/d3.v6.min.js"></script>
 
-  <!-- Include maplibregl and Plotly -->
-  <script src="https://unpkg.com/maplibre-gl/dist/maplibre-gl.js"></script>
-  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-
   <style>
     /* Ensures each chart container has a proper height */
     .chart-container {
@@ -27,9 +23,9 @@
 <body>
 
   <div class="topnav container">
-    <a href="/map_Homepage.html" class="active">Reset map Location</a>
-    <a href="/ahn_Health Stats_page.html">Bar Chart: Health Statistics</a>
-    <a href="/kathy_State_and Topic_page.html" class="active">State and Topic Insights</a>
+    <a href="/index.html" class="active">Reset map Location</a>
+    <a href="/General_Analysis/Anh_plotly/index1.html">Bar Chart: Health Statistics</a>
+    <a href="/General_Analysis/Kathy_LineChart/insights.html">Trend Line Chart: Chronic Disease Indicator</a>
   </div>
 
   <!-- Header Section -->
@@ -40,7 +36,7 @@
 
   <!-- Main Content -->
   <div class="container mt-4">
-    <!-- First Chart Section -->
+    <!-- First Chart Section (Bar Chart with State and Topic) -->
     <div class="row">
       <!-- Dropdown Selections for Chart 1 -->
       <div class="col-md-4">
@@ -50,7 +46,7 @@
         <label for="topic-select" class="form-label mt-3">Select Topic:</label>
         <select id="topic-select" class="form-select"></select>
       </div>
-      <!-- Chart 1 -->
+      <!-- Chart 1 Container -->
       <div class="col-md-8">
         <div class="card p-3">
           <div id="chart-container1" class="chart-container">
@@ -60,7 +56,7 @@
       </div>
     </div>
 
-    <!-- Second Chart Section -->
+    <!-- Second Chart Section (Line Chart with State and Question) -->
     <div class="row mt-4">
       <!-- Dropdown Selections for Chart 2 -->
       <div class="col-md-4">
@@ -70,7 +66,7 @@
         <label for="question-select" class="form-label mt-3">Select Question:</label>
         <select id="question-select" class="form-select"></select>
       </div>
-      <!-- Chart 2 -->
+      <!-- Chart 2 Container -->
       <div class="col-md-8">
         <div class="card p-3">
           <div id="chart-container2" class="chart-container">
@@ -83,13 +79,12 @@
 
   <!-- Footer Section -->
   <div class="container text-center mt-4">
-    <a href="/map_Homepage.html" class="btn btn-primary">Return to Map</a>
+    <a href="../../index.html" class="btn btn-primary">Return to Map</a>
   </div>
 
   <!-- Bootstrap JavaScript -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
-  <!-- External JavaScript for Chart -->
-  <script src="/final_Static_Deliverables/global_script.js"></script>
+  <!-- External JavaScript for Chart (contains your updated chart code) -->
+  <script src="script.js"></script>
 </body>
 </html>
