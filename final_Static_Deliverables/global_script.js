@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Load JSON data using Fetch API
     function loadJsonData() {
-        fetch('nutrition_obesity_cleaned.json')  // Ensure the file path is correct
+        fetch('/final_Static_Deliverables/nutrition_obesity_cleaned.json')  // Ensure the file path is correct
             .then(response => response.json())
             .then(data => {
                 jsonData = data;
