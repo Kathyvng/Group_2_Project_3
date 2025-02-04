@@ -9,6 +9,7 @@
                                     /*ANH__HEALTH_STATS_PAGE JAVASCRIPT BELOW */
 
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
 document.addEventListener("DOMContentLoaded", function () {
     const stateSelect = document.getElementById("state-select");
     const questionSelect = document.getElementById("question-select");
@@ -156,13 +157,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
 document.addEventListener("DOMContentLoaded", function () {
     // ---------------- First Chart (State and Topic) - Line Chart ----------------
-    const ctx = document.getElementById("lineChart").getContext("2d");
+    const ctx = document.getElementById("lineChart")?.getContext("2d");
     let lineChart; // Instance for the first chart (line chart)
     const stateSelect = document.getElementById("state-select");
     const topicSelect = document.getElementById("topic-select");
 
     // ---------------- Second Chart (State and Question) - Line Chart ----------------
-    const ctx2 = document.getElementById("lineChart2").getContext("2d");
+    const ctx2 = document.getElementById("lineChart2")?.getContext("2d");
     let lineChart2; // Instance for the second chart (line chart)
     const stateSelect2 = document.getElementById("state-select2");
     const questionSelect = document.getElementById("question-select");
