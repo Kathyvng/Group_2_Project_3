@@ -14,7 +14,9 @@ The project consists of the following structure:
 - **`final_Static_Deliverables/`**: Folder containing the project's static assets.
   - **`css/`**: Contains the css file for custom styling.
   - **`js/`**: Contains the js files for the project's custom JavaScript functionality.
-  - **`Data/`**: Cleaned data available in JSON files and in a Python Jupyter Notebook. 
+  - **`Data/`**: Cleaned data available in JSON files and in a Python Jupyter Notebook.
+ 
+Link to the project: https://kathyvng.github.io/Group_2_Project_3/ 
     
 ### Homepage (Map Overview)
 The homepage displays an interactive map of the U.S. where users can hover over and click on state markers to see basic health statistics, including:
