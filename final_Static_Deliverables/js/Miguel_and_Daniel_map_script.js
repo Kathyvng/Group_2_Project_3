@@ -82,13 +82,13 @@ const map = new maplibregl.Map({
             hoveredStateId = null;
         });
 
-        map.on('mousemove', 'state-fills', (e) => {
+        //map.on('mousemove', 'state-fills', (e) => {
 
-            new maplibregl.Popup()
+            //new maplibregl.Popup()
 
-            .setLlngLat(e.setLlngLat)
-            .setHTML('<H3>'+"hello"+ '</H3>') 
-            .addTo(map)});
+           // .setLlngLat(e.setLlngLat)
+           // .setHTML('<H3>'+"hello"+ '</H3>') 
+           // .addTo(map)});
         
     ////////////////////////////////////////////////////////////
     
